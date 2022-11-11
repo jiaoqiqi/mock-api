@@ -1,8 +1,20 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "announcements": [
+    { "id": 1, 
+       "name": "拍品1",
+       "image": "https://img2.baidu.com/it/u=3488060271,3738256443&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=704" ,
+       "start-date": "2022/10/07"
+    },
+     { "id": 2, 
+       "name": "拍品2",
+       "image": "https://img0.baidu.com/it/u=1752988441,1721859672&fm=253&fmt=auto&app=138&f=JPEG?w=667&h=500" ,
+       "start-date": "2022/10/05"
+    },
+     { "id": 3, 
+       "name": "拍品3",
+       "image": "https://img1.baidu.com/it/u=318783300,1395277941&fm=253&fmt=auto&app=138&f=JPEG?w=402&h=600" ,
+       "start-date": "2022/10/03"
+    }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
